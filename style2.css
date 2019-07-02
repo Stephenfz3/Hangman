@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(https://media3.giphy.com/media/vvZeaCj5tf0qY/giphy.gif);
+     
+}
+
+.hangTitle{
+    font-size: 60px;
+font-family: 'Orbitron', sans-serif;
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
+}
+h3{
+    color: white;
+    font-family:  'Orbitron', sans-serif;
+}
+h4{
+    color: white;
+    font-family:  'Orbitron', sans-serif;
+}
+#currentWord {
+    color:white;
+    font-family:  'Orbitron', sans-serif;
+}
+#gameWins {
+    color:white;
+    font-family:  'Orbitron', sans-serif;
+}
+#userGuesses {
+    color: white;
+    font-family:  'Orbitron', sans-serif;
+}
+#guessesLeft , {
+    color: white;
+    font-family:  'Orbitron', sans-serif;
+}
+#gameLosses {
+    color: white;
+    font-family:  'Orbitron', sans-serif;
+}
+#guessesLeft {
+    color: white;
+     font-family:  'Orbitron', sans-serif;
+}
+
+.game-content {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    min-height: 500px;
+}
+
+
+
+.game-content th, .game-content td {
+    border: 5px dotted white;
+    width: 1%;
+}
+
+main {
+    background:rgba(12, 11, 19, 0.6); 
+    border-radius:40px;
+    padding: 20px;
+    padding-bottom: 50px; 
+    min-height:200px;
+    margin-bottom:5%;
+  
+    
+}
+
+.hangTitle {
+    font-size:2em;
+}
+
+
+#pressKeyTryAgain {
+    color:red;
+    font-family:  'Orbitron', sans-serif;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+    font-size: 1.5em;
+}
